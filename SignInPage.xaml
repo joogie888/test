@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="VMS.SignIn"
+             Title="">
+
+    <VerticalStackLayout>
+
+        <Label
+            Text="Visitor Management System"
+            FontSize="Header"
+            TextColor="Crimson"
+            FontFamily="Empty"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"/>
+        
+        <Label 
+            Text="Welcome to VMS"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"/>
+
+        <Label
+            Text="Email"
+            VerticalOptions="Start"
+            Padding="260, 10"
+            HorizontalOptions="Start"/>
+
+        <Entry
+            Text="Enter your Email"
+            MaximumWidthRequest="500"/>
+
+        <Label
+            Text="Password"
+            VerticalOptions="Start"
+            Padding="260, 10"
+            HorizontalOptions="Start"/>
+
+        <Entry
+            Text="Enter your Password"
+            MaximumWidthRequest="500"/>
+
+        <Button
+            Text="Log In"
+            MaximumWidthRequest="500"
+            Margin="15"/>
+
+    </VerticalStackLayout>
+</ContentPage>
